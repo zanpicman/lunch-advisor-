@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using LunchAdvisor.Data;
 using LunchAdvisor.Areas.Identity.Data;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.AspNetCore.StaticFiles;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("AzureContext") ?? throw new InvalidOperationException("Connection string 'LunchAdvisorContextConnection' not found.");
@@ -34,22 +35,23 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+// app.UseFileServer();
+// app.UseFileServer(new FileServerOptions
+// {
+//     FileProvider = new PhysicalFileProvider(
+//                Path.Combine(Directory.GetCurrentDirectory(), "Assets")),
+//     RequestPath = "/wwwroot/Assets",
+//     EnableDefaultFiles = true
+// });
 app.UseFileServer();
-app.UseFileServer(new FileServerOptions
-{
-    FileProvider = new PhysicalFileProvider(
-               Path.Combine(Directory.GetCurrentDirectory(), "Assets")),
-    RequestPath = "/Assets",
-    EnableDefaultFiles = true
-});
 
-// app.UseStaticFiles();
 // app.UseStaticFiles(new StaticFileOptions()
 // {
 //     FileProvider = new PhysicalFileProvider(
 //             Path.Combine(Directory.GetCurrentDirectory(),@"Assets")),
-//             RequestPath =  new PathString("/assets")
+//             RequestPath =  new PathString("/Assets")
 // });
+
 
 app.UseRouting();
 app.UseAuthentication();;

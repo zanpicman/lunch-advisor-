@@ -34,6 +34,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseFileServer();
 app.UseFileServer(new FileServerOptions
 {
     FileProvider = new PhysicalFileProvider(

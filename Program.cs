@@ -34,13 +34,21 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-app.UseStaticFiles(new StaticFileOptions()
+app.UseFileServer(new FileServerOptions
 {
     FileProvider = new PhysicalFileProvider(
-            Path.Combine(Directory.GetCurrentDirectory(),@"Assets")),
-            RequestPath =  new PathString("/assets")
+               Path.Combine(Directory.GetCurrentDirectory(), "Assets")),
+    RequestPath = "/Assets",
+    EnableDefaultFiles = true
 });
+
+// app.UseStaticFiles();
+// app.UseStaticFiles(new StaticFileOptions()
+// {
+//     FileProvider = new PhysicalFileProvider(
+//             Path.Combine(Directory.GetCurrentDirectory(),@"Assets")),
+//             RequestPath =  new PathString("/assets")
+// });
 
 app.UseRouting();
 app.UseAuthentication();;

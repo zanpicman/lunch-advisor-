@@ -1,0 +1,37 @@
+﻿@model IEnumerable<LunchAdvisor.Models.Restaurant>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <img src="/Assets/other/LogoShort.png" class="img-fluid" width="30%"/>
+    <h3 class="text-muted">By Foodies for Foodies.</h3>
+</div>
+<div class="mt-5">
+    <h2 class="display-4 fw-bold">Newly added</h2>
+    <div class="row">
+        @foreach(var item in Model)
+        {
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <img src="@Url.Content(item.imageURL)" class="card-img-top" height="300">
+                <div class="card-body">
+                <h5 class="fw-bold card-title">@item.Name</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Average Rating: @item.getAverageRating()</h6>
+                        <p class="card-text">@item.Description</p>
+                <p class="card-text"><small>Location: @item.Location</small></p>
+                <a class="btn btn-primary" asp-controller="Restaurants" asp-action="Details" asp-route-id="@item.ID">Details</a>
+              </div>
+            </div>
+          </div>
+        }
+    </div>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <a class="btn btn-primary mt-5 p-2 fs-2 d-flex justify-content-center" asp-controller="Restaurants" asp-action="Index">Discover Other Restaurants!</a>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+</div>

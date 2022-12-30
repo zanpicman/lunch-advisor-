@@ -1,0 +1,77 @@
+﻿@model LunchAdvisor.Models.Restaurant
+
+@{
+    ViewData["Title"] = Model.Name.ToUpper();
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container bg-light shadow p-3 mb-5 rounded">
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="@Url.Content(Model.imageURL)" class="img-fluid rounded img-thumbnail mt-2 mb-2" />
+        </div>
+        <div class="col-lg-8">
+            <h1 class="text-center display-3">@Model.Name.ToUpper()</h1>
+            <h3 class="text-muted">Rating: @Model.getAverageRating()</h3>
+            @{
+                float restaurantAvg = Model.getAverageRatingf();
+                for (int i = 0; i < (int)restaurantAvg; i++)
+                {
+                    <i class="bi bi-star-fill text-warning fs-2"></i>
+                }
+
+                if (restaurantAvg - (int)restaurantAvg > 0.5)
+                {
+                    <i class="bi bi-star-half text-warning fs-2"></i>
+                }
+
+                for (int i = 0; i < 5 - (int) Math.Round(restaurantAvg); i++)
+                {
+                    <i class="bi bi-star text-warning fs-2"></i>
+                }
+            }
+            <h6 class="text-primary">@Model.RestaurantRatings.Count Reviews</h6>
+            <p class="fs-4">- @Model.Description</p>
+            <p class="fs-5">Address: @Model.Location</p>
+            <div class="d-flex mt-3 mb-3 justify-content-evenly">
+                <a asp-action="Staff" asp-route-id="@Model.ID" class="btn btn-primary fs-1 text-center pt-2 pb-2 ps-5 pe-5"><i class="bi bi-person-vcard fs-1"></i> Staff</a>
+                <a asp-action="Dishes" asp-route-id="@Model.ID" class="btn btn-primary fs-1 text-center pt-2 pb-2 ps-5 pe-5"><i class="bi bi-egg-fried fs-1"></i> Dishes</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h1 class="display-4">Reviews: <a asp-action="Review" asp-route-id="@Model.ID" asp-controller="RestaurantRatings" class="btn btn-white"><i class="bi bi-plus-square display-4"></i></a></h1>
+<div class="container bg-light shadow p-3 mb-5 rounded">
+    @{
+        foreach (RestaurantRating restRating in Model.RestaurantRatings)
+        {
+            <div class="card m-3">
+                <div class="card-header">
+                        (@restRating.rating)&nbsp;
+                    @{
+                        restaurantAvg = restRating.rating;
+                        for (int i = 0; i < (int)restaurantAvg; i++)
+                        {
+                            <i class="bi bi-star-fill text-warning"></i>
+                        }
+
+                        for (int i = 0; i < 5 - (int) restaurantAvg; i++)
+                        {
+                            <i class="bi bi-star text-warning"></i>
+                        }
+                    }
+                    &nbsp;
+                    @restRating.Name
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class="card-text">@restRating.Description</p>
+                        <footer class="blockquote-footer">@restRating.User.UserName <br /> @restRating.date.ToString("dd/MM/yyyy")</footer>
+                    </blockquote>
+                </div>
+            </div>
+        }
+    }
+</div>

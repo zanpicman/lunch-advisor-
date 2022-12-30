@@ -1,0 +1,49 @@
+﻿@model LunchAdvisor.Models.Waiter
+
+@{
+    ViewData["Title"] = Model.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="display-4"><i class="bi bi-person-circle" style="font-size:100px;"></i> Reviews for @Model.Name <a asp-action="Review" asp-controller="WaiterRatings" asp-route-id="@Model.ID" class="btn btn-white"><i class="bi bi-plus-square display-4"></i></a></h1>
+
+<div class="container bg-light shadow p-3 mb-5 rounded">
+    @{
+        if(Model.WaiterRatings.Count > 0)
+        {
+            foreach (WaiterRating waiterRating in Model.WaiterRatings)
+            {
+                <div class="card m-3">
+                    <div class="card-header">
+                        (@waiterRating.rating)&nbsp;
+                        @{
+                            int wRating = waiterRating.rating;
+                            for (int i = 0; i < wRating; i++)
+                            {
+                                <i class="bi bi-star-fill text-warning"></i>
+                            }
+
+                            for (int i = 0; i < 5 - wRating; i++)
+                            {
+                                <i class="bi bi-star text-warning"></i>
+                            }
+                        }
+                        &nbsp;
+                        @waiterRating.Name
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p class="card-text">@waiterRating.Description</p>
+                            <footer class="blockquote-footer">@waiterRating.User.UserName <br /> @waiterRating.date.ToString("dd/MM/yyyy")</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <h4 class="text-muted">No reviews yet</h4>
+        }
+
+    }
+</div>

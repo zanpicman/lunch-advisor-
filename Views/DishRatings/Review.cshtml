@@ -1,0 +1,26 @@
+﻿@model LunchAdvisor.Models.DishRating
+
+@{
+    ViewData["Title"] = ViewBag.Name + " Review";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewBag.Name Review</h1>
+@using (Html.BeginForm("Review", "DishRatings", FormMethod.Post))
+{
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Name, new {@class = "form-label"})
+        @Html.TextBoxFor(m => m.Name, new {@class = "form-control"})
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.Description, new {@class = "form-label"})
+        @Html.TextAreaFor(m => m.Description, new {@class = "form-control"})
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.rating, new {@class = "form-label"})
+        @Html.EditorFor(m => m.rating, new {@class = "form-range"})
+    </div>
+    <input class="btn btn-primary" type="submit" value="Submit Review" />
+}

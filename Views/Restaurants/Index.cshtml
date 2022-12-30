@@ -1,0 +1,48 @@
+﻿@model IEnumerable<LunchAdvisor.Models.Restaurant>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1 class="display-1 text-center">Restaurants</h1>
+<div class="container bg-light shadow p-3 mb-5 rounded">
+    @foreach(var item in Model){
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="@Url.Content(item.imageURL)" class="img-fluid rounded-start" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title display-5">@item.Name</h5>
+                        <h4 class="card-subtitle text-muted">Rating: 
+                        @{
+                            float restaurantAvg = item.getAverageRatingf();
+                            for (int i = 0; i < (int)restaurantAvg; i++)
+                            {
+                                <i class="bi bi-star-fill text-warning fs-2"></i>
+                            }
+
+                            if (restaurantAvg - (int)restaurantAvg > 0.5)
+                            {
+                                <i class="bi bi-star-half text-warning fs-2"></i>
+                            }
+
+                            for (int i = 0; i < 5 - (int)Math.Round(restaurantAvg); i++)
+                            {
+                                <i class="bi bi-star text-warning fs-2"></i>
+                            }
+                        }
+                            </h4>
+                        <p class="card-text fs-4">@item.Description</p>
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fs-5"><small class="text-muted">Address: @item.Location</small></p>
+                            <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-primary p-2 m-2"><h1 class="display-6">Details</h1></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

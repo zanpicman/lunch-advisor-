@@ -1,0 +1,54 @@
+﻿@model LunchAdvisor.Models.Restaurant
+
+@{
+    ViewData["Title"] = "Staff";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1 class="display-1 text-center">@Model.Name Staff</h1>
+<div class="container bg-light shadow p-3 mb-5 rounded">
+    @foreach (var item in Model.Waiters)
+    {
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-md-2">
+                    <p class="text-center"><i class="bi bi-person-circle" style="font-size:100px;"></i></p>
+                </div>
+                <div class="col-md-10">
+                    <div class="card-body">
+                        <h5 class="card-title display-5">@item.Name</h5>
+                        <h4 class="card-subtitle text-muted">
+                                Rating: @item.getAverageRating()
+                            </h4>
+
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                @{
+                                    float restaurantAvg = item.getAverageRatingf();
+                                    for (int i = 0; i < (int)restaurantAvg; i++)
+                                    {
+                                        <i class="bi bi-star-fill text-warning fs-2"></i>
+                                    }
+
+                                    if (restaurantAvg - (int)restaurantAvg > 0.5)
+                                    {
+                                        <i class="bi bi-star-half text-warning fs-2"></i>
+                                    }
+
+                                    for (int i = 0; i < 5 - (int)Math.Round(restaurantAvg); i++)
+                                    {
+                                        <i class="bi bi-star text-warning fs-2"></i>
+                                    }
+                                }
+                            </div>
+                            <div>
+                                <a asp-action="Details" asp-controller="Waiters" asp-route-id="@item.ID" class="btn btn-primary p-2 m-2"><h1 class="display-6">Details</h1></a>
+                                <a asp-action="Review" asp-controller="WaiterRatings" asp-route-id="@item.ID" class="btn btn-primary p-2 m-2"><h1 class="display-6">Review</h1></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -35,14 +35,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-// app.UseFileServer();
-// app.UseFileServer(new FileServerOptions
-// {
-//     FileProvider = new PhysicalFileProvider(
-//                Path.Combine(Directory.GetCurrentDirectory(), "Assets")),
-//     RequestPath = "/wwwroot/Assets",
-//     EnableDefaultFiles = true
-// });
+
 app.UseFileServer();
 
 // app.UseStaticFiles(new StaticFileOptions()

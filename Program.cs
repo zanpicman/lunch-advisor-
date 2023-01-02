@@ -38,9 +38,8 @@ app.UseHttpsRedirection();
 
 
 
-//var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Assets");
 
-app.UseStaticFiles();
+ app.UseStaticFiles();
 app.UseStaticFiles(new StaticFileOptions()
 {
     FileProvider = new PhysicalFileProvider(

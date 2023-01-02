@@ -8,209 +8,209 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LunchAdvisor
 build_property.RootNamespace = LunchAdvisor
-build_property.ProjectDir = C:\Users\picma\Downloads\Lunch-Advisor-main (1)\Lunch-Advisor-main\LunchAdvisor\
+build_property.ProjectDir = c:\Users\picma\Downloads\Lunch-Advisor-main (1)\Lunch-Advisor-main\LunchAdvisor\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\picma\Downloads\Lunch-Advisor-main (1)\Lunch-Advisor-main\LunchAdvisor
+build_property.MSBuildProjectDirectory = c:\Users\picma\Downloads\Lunch-Advisor-main (1)\Lunch-Advisor-main\LunchAdvisor
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/Account/Login.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/Account/Logout.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/Account/Register.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/_ViewImports.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/_ViewStart.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Create.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Delete.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Details.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Edit.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Index.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Dishes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Create.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFJhdGluZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Delete.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFJhdGluZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Details.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFJhdGluZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Edit.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFJhdGluZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Index.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFJhdGluZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Review.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/DishRatings/Review.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzaFJhdGluZ3NcUmV2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Home/Index.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Home/Privacy.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Create.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFJhdGluZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Delete.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFJhdGluZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Details.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFJhdGluZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Edit.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFJhdGluZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Index.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFJhdGluZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Review.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/RestaurantRatings/Review.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudFJhdGluZ3NcUmV2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Create.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Delete.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Details.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Dishes.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Dishes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcRGlzaGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Edit.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Index.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Staff.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Restaurants/Staff.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcU3RhZmYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Shared/Error.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Create.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyUmF0aW5nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Delete.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyUmF0aW5nc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Details.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyUmF0aW5nc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Edit.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyUmF0aW5nc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Index.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyUmF0aW5nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Review.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/WaiterRatings/Review.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyUmF0aW5nc1xSZXZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Create.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Delete.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Details.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Edit.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Index.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Waiters/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FpdGVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/_ViewImports.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/_ViewStart.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Shared/_Layout.cshtml]
+[c:/Users/picma/Downloads/Lunch-Advisor-main (1)/Lunch-Advisor-main/LunchAdvisor/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-y2j4lx1m6p

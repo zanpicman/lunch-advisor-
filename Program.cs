@@ -36,14 +36,13 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseFileServer();
-
-// app.UseStaticFiles(new StaticFileOptions()
-// {
-//     FileProvider = new PhysicalFileProvider(
-//             Path.Combine(Directory.GetCurrentDirectory(),@"Assets")),
-//             RequestPath =  new PathString("/Assets")
-// });
+app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions()
+{
+    FileProvider = new PhysicalFileProvider(
+            Path.Combine(Directory.GetCurrentDirectory(),@"Assets")),
+            RequestPath =  new PathString("/Assets")
+});
 
 
 app.UseRouting();

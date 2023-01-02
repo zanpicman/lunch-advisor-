@@ -1,6 +1,6 @@
 ﻿namespace LunchAdvisor.Models
 {
-    public class Dish
+    public class Dish   
     {
         public int ID { get; set; }
         public int RestaurantID { get; set; } 

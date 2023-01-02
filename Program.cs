@@ -35,7 +35,11 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Assets");
+
+
+
+//var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Assets");
+
 app.UseStaticFiles();
 app.UseStaticFiles(new StaticFileOptions()
 {

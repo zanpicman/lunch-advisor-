@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+  <Content Include="Assets\*">
+  <CopyToPublishDirectory>always</CopyToPublishDirectory>
+</Content>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.10" />

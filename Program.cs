@@ -6,7 +6,7 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.AspNetCore.StaticFiles;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("AzureContext") ?? throw new InvalidOperationException("Connection string 'LunchAdvisorContextConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("AzureContext") ?? throw new InvalidOperationException("Connection string 'AzureContext' not found.");
 
 builder.Services.AddDbContext<LunchAdvisorContext>(options =>
     options.UseSqlServer(connectionString));
@@ -41,7 +41,7 @@ app.UseStaticFiles(new StaticFileOptions()
 {
     FileProvider = new PhysicalFileProvider(
             Path.Combine(Directory.GetCurrentDirectory(),@"Assets")),
-            RequestPath =  new PathString("/Assets")
+            RequestPath =  new PathString("/assets")
 });
 
 

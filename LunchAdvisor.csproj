@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-  <Content Include="Assets\*">
+  <Content Include="/Assets*">
   <CopyToPublishDirectory>always</CopyToPublishDirectory>
 </Content>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.10" />

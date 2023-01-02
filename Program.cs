@@ -38,15 +38,15 @@ app.UseHttpsRedirection();
 
 
 
-var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Assets");
+//var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Assets");
 
-// app.UseStaticFiles();
-// app.UseStaticFiles(new StaticFileOptions()
-// {
-//     FileProvider = new PhysicalFileProvider(
-//             Path.Combine(Directory.GetCurrentDirectory(),@"Assets")),
-//             RequestPath =  new PathString("/assets")
-// });
+app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions()
+{
+    FileProvider = new PhysicalFileProvider(
+            Path.Combine(Directory.GetCurrentDirectory(),@"Assets")),
+            RequestPath =  new PathString("/assets")
+});
 
 
 app.UseRouting();

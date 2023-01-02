@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\picma\\Downloads\\Lunch-Advisor-main (1)\\Lunch-Advisor-main\\LunchAdvisor\\LunchAdvisor.csproj": {}
+    "C:\\Users\\picma\\Desktop\\LunchAdvisor\\LunchAdvisor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\picma\\Downloads\\Lunch-Advisor-main (1)\\Lunch-Advisor-main\\LunchAdvisor\\LunchAdvisor.csproj": {
+    "C:\\Users\\picma\\Desktop\\LunchAdvisor\\LunchAdvisor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\picma\\Downloads\\Lunch-Advisor-main (1)\\Lunch-Advisor-main\\LunchAdvisor\\LunchAdvisor.csproj",
+        "projectUniqueName": "C:\\Users\\picma\\Desktop\\LunchAdvisor\\LunchAdvisor.csproj",
         "projectName": "LunchAdvisor",
-        "projectPath": "C:\\Users\\picma\\Downloads\\Lunch-Advisor-main (1)\\Lunch-Advisor-main\\LunchAdvisor\\LunchAdvisor.csproj",
+        "projectPath": "C:\\Users\\picma\\Desktop\\LunchAdvisor\\LunchAdvisor.csproj",
         "packagesPath": "C:\\Users\\picma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\picma\\Downloads\\Lunch-Advisor-main (1)\\Lunch-Advisor-main\\LunchAdvisor\\obj\\",
+        "outputPath": "C:\\Users\\picma\\Desktop\\LunchAdvisor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\picma\\AppData\\Roaming\\NuGet\\NuGet.Config"

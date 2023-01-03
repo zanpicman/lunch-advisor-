@@ -11,7 +11,7 @@
             <img src="@Url.Content(Model.imageURL)" class="img-fluid rounded img-thumbnail mt-2 mb-2" />
         </div>
         <div class="col-lg-8">
-            <h1 class="text-center display-3">@Model.Name.ToUpper()</h1>
+            <h1 class="text-center display-3">@Model.Name</h1>
             <h3 class="text-muted">Rating: @Model.getAverageRating()</h3>
             @{
                 float restaurantAvg = Model.getAverageRatingf();

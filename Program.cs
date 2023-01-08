@@ -6,8 +6,12 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.AspNetCore.StaticFiles;
 using System.Text.Json.Serialization;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("AzureContext") ?? throw new InvalidOperationException("Connection string 'AzureContext' not found.");
+
+
 
 builder.Services.AddDbContext<LunchAdvisorContext>(options =>
     options.UseSqlServer(connectionString));
@@ -29,7 +33,17 @@ builder.Services.AddControllersWithViews()
     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles
 );
 
+
+
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+});
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -51,6 +65,8 @@ app.UseStaticFiles();
 //             Path.Combine(Directory.GetCurrentDirectory(),@"Assets")),
 //             RequestPath =  new PathString("/assets")
 // });
+
+
 
 
 app.UseRouting();

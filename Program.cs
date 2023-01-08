@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.StaticFiles;
 using System.Text.Json.Serialization;
 
 
-
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("AzureContext") ?? throw new InvalidOperationException("Connection string 'AzureContext' not found.");
 

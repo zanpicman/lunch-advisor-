@@ -9,6 +9,7 @@ using LunchAdvisor.Data;
 using LunchAdvisor.Models;
 using System.Security.Claims;
 
+
 namespace LunchAdvisor.Controllers
 {
     public class DishRatingsController : Controller

@@ -26,7 +26,6 @@ builder.Services.AddDefaultIdentity<LunchAdvisorUser>(options => options.SignIn.
                 .AddDefaultTokenProviders();
 builder.Services.AddRazorPages();
 
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddControllersWithViews()

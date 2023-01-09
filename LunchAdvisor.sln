@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchAdvisor", "LunchAdvisor\LunchAdvisor.csproj", "{CDAC8260-F897-440D-9DDB-41360D60395C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunchAdvisor", "LunchAdvisor.csproj", "{CDAC8260-F897-440D-9DDB-41360D60395C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

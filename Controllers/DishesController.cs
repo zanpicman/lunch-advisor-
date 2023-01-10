@@ -57,7 +57,7 @@ namespace LunchAdvisor.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,RestaurantID,Name")] Dish dish)
+        public async Task<IActionResult> Create([Bind("ID,RestaurantID,Name,ImageURL")] Dish dish)
         {
             if (ModelState.IsValid)
             {

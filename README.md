@@ -8,7 +8,8 @@
 S tem informacijskim sistemom bova stranke obveščala o najboljših restavracijah okoli in tako zagotovila kar se da dobro izkušnjo. Sistem bo deloval tako, da bodo v bazi shranjene posamezne ocene vseh jedi iz menija vsake restavracije, ki jih ocenijo stranke, prav tako bodo stranke lahko ocenile strežbo posameznega natakarja. Iz teh dveh ocen bo nastala skupna ocena za vsako restavracijo. V sistem se lahko dodaja nove jedi in restavracije. Imava tudi aplikacijo, ki se s pomočjo API poveže s spletno storitvijo na strežniku ter na podlagi vnosa stranke izbere neko jed ter predlaga restavracijo.
  
  Jani je naredil spletno stran z večino potrebnih funkcij, kot so naprimer razor pages, controllers, model,...
- Žan je objavil spletno stran na Microsoft Azure in dodal male funkcije spletni strani. Naredil je API vmesnik ter dokumetacijo, ter naredil aplikacijo, ki se poveže na ta API.
+ 
+ Žan je objavil spletno stran na Microsoft Azure in uredil podatkovno bazo, dodal manjše funkcije spletni strani. Naredil je API vmesnik ter dokumetacijo, ter naredil aplikacijo, ki se poveže na ta API.
 
 Spletna Stran:
 ![image](https://user-images.githubusercontent.com/96843213/211861206-13b244f2-f6da-4e7e-bff5-7e8405a87d45.png)

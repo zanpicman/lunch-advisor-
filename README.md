@@ -5,11 +5,14 @@
 * 63200055 Jani Bangiev 
 
 ## Opis Informacijskega sistema
-S tem informacijskim sistemom bova stranke obveščala o najboljših restavracijah okoli in tako zagotovila kar se da dobro izkušnjo. Sistem bo deloval tako, da bodo v bazi shranjene posamezne ocene vseh jedi iz menija vsake restavracije, ki jih ocenijo stranke, prav tako bodo stranke lahko ocenile strežbo posameznega natakarja. Iz teh dveh ocen bo nastala skupna ocena za vsako restavracijo. V sistem se lahko dodaja nove jedi in restavracije. Imava tudi aplikacijo, ki se s pomočjo API poveže s spletno storitvijo na strežniku ter na podlagi vnosa stranke izbere neko jed ter predlaga restavracijo.
+S tem informacijskim sistemom bova stranke obveščala o najboljših restavracijah okoli in tako zagotovila kar se da dobro izkušnjo. Sistem bo deloval tako, da bodo v bazi shranjene posamezne ocene vseh jedi iz menija vsake restavracije, ki jih ocenijo stranke, prav tako bodo stranke lahko ocenile strežbo posameznega natakarja. Poleg teh dveh ocen, lahko uporabnik oceni restavracijo tudi kot celoto. V sistem se lahko dodaja nove jedi in restavracije. Imava tudi aplikacijo, ki se s pomočjo API poveže s spletno storitvijo na strežniku ter na podlagi vnosa stranke izbere neko jed ter predlaga restavracijo.
  
- Jani je naredil spletno stran z večino potrebnih funkcij, kot so naprimer razor pages, controllers, model,...vsa ta koda je na tem repozitoriju: https://github.com/Term164/Lunch-Advisor
+
+ Jani je naredil ogrodje spletne strani in glavne module ter podstrani. Napisal je Modele po definirani podatkovni bazi v ozadju in je vse skupaj povezal z controllerji in razor stranmi. Na koncu, je spletno stran oblikoval na način da je uporabniku prijazna in razumljiva. Originalna koda prvega dela se nahaja na tem repozitoriju: https://github.com/Term164/Lunch-Advisor
  
  Žan je objavil spletno stran na Microsoft Azure in uredil podatkovno bazo, dodal manjše funkcije spletni strani. Naredil je API vmesnik ter dokumetacijo, ter naredil aplikacijo, ki se poveže na ta API.
+
+Skupaj pa sva definirala strukturo aplikacije, kako bo izgledala, kakšne funkcionalnosti bo imela, katere tabele bojo v ozadju.
 
 Spletna Stran:
 ![image](https://user-images.githubusercontent.com/96843213/211861206-13b244f2-f6da-4e7e-bff5-7e8405a87d45.png)
